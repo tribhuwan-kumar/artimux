@@ -53,7 +53,7 @@ battery_status() {
 battery_status
 
 WIN_WIDTH=$(tmux display -p '#{window_width}')
-if [ "$WIN_WIDTH" -lt 115 ]; then
+if [ "$WIN_WIDTH" -lt 131 ]; then
     echo -ne ""
 else
     format_bat "$CAPACITY" "$STATUS"

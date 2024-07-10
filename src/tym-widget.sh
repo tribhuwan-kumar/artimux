@@ -34,7 +34,7 @@ echo_info
 # Echo media info in tmux status bar
 WIN_WIDTH=$(tmux display -p '#{window_width}')
 
-if [ "$WIN_WIDTH" -lt 115 ]; then
+if [ "$WIN_WIDTH" -lt 151 ]; then
     echo -ne ""
 else
     if [ "$PLAY_STATE" == "false" ]; then

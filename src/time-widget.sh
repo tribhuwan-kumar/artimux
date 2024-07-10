@@ -9,7 +9,7 @@ fi
 WIDTH=$(tmux display -p '#{window_width}')
 TIME_FORMAT=$(tmux show-option -gv @Artimux_time_format 2>/dev/null)
 
-if [ "$WIDTH" -lt 115 ]; then
+if [ "$WIDTH" -lt 131 ]; then
     echo -ne ""
 else
     if [ "$TIME_FORMAT" == "24HR" ]; then
