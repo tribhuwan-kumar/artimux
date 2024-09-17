@@ -10,7 +10,7 @@ SYNC_STATUS=$(git fetch --atomic origin --negotiation-tip=HEAD & git status -uno
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
 if [[ $SYNC_STATUS =~ "Your branch is up to date" ]]; then
-    echo " #[fg=#44dfaf,bold]󱍸  $BRANCH$RESET "
+    echo " #[fg=#89b482,bold]󱍸  $BRANCH$RESET "
 
 elif [[ $SYNC_STATUS =~ "Your branch is ahead of" ]]; then
     echo " #[fg=#e0af68,bold]󰵵  $BRANCH$RESET "

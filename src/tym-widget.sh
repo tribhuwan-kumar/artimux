@@ -9,7 +9,7 @@ CURRENT_PANE_TYMID=$(pgrep -P $CURRENT_PANE_PID | xargs -n 1 pstree -p | grep -o
 if [ -n "$TYM_PID" ] && [ -n "$CURRENT_PANE_TYMID" ] && [ "$CURRENT_PANE_TYMID" == "$TYM_PID" ]; then
     tmux rename-window " ƬƳ𐒄 ℓινє.."
 else
-    tmux rename-window "$(basename "$(tmux display-message -p '#{pane_current_command}')")"
+    tmux rename-window "$(basename "$(tmux display-message -p '#{pane_current_path}')")"
 fi
 
 # MPV socket activation check
