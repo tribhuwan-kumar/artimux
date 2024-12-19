@@ -16,10 +16,10 @@ tmux set -g status-right-length 150
 # Highlight colors
 tmux set -g mode-style "fg=#e0e1dd,bg=#575757"
 tmux set -g status-style "bg=default"
-tmux set -g message-style "fg=#cacbc7"
-tmux set -g pane-border-style "fg=#cacbc7"
-tmux set -g message-command-style "fg=#cacbc7,bg=default"
-tmux set -g pane-active-border-style "fg=#cacbc7"
+tmux set -g message-style "fg=#ebdbb2"
+tmux set -g pane-border-style "fg=#ebdbb2"
+tmux set -g message-command-style "fg=#ebdbb2,bg=default"
+tmux set -g pane-active-border-style "fg=#ebdbb2"
 
 # Vars
 SCRIPTS_PATH="$CURRENT_DIR/src"
@@ -55,9 +55,9 @@ tmux set -g status-left "#[fg=#a8adb4,bold] #{?client_prefix,󰠠 ,#[dim]󰤂 }#
 #+--- Windows ---+
 # Focus
 tmux set -g window-status-separator ""
-tmux set -g window-status-current-format "#[fg=#44dfaf]  #[fg=#cacbc7]$window_number #[bold,nodim]#W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane} #{?window_last_flag,,} "
+tmux set -g window-status-current-format "#[fg=#44dfaf]  #[fg=#ebdbb2]$window_number #[bold,nodim]#W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane} #{?window_last_flag,,} "
 # Unfocused
-tmux set -g window-status-format "#[fg=#cacbc7,none,dim]  $window_number #W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane}#[fg=#e5a340] #{?window_last_flag,󰁯 ,} "
+tmux set -g window-status-format "#[fg=#ebdbb2,none,dim]  $window_number #W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane}#[fg=#e5a340] #{?window_last_flag,󰁯 ,} "
 
 #+--- Bars RIGHT ---+
 tmux set -g status-right "$git_status#[fg=#868a90]$battery#[fg=#868a90]$netspeed$time$tym$cmus_status"

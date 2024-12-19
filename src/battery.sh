@@ -21,7 +21,7 @@ format_bat() {
             echo "❬ 󰢞 $CAPACITY% "
         elif [ "$CAPACITY" -lt 90 ]; then
             echo "❬ 󰂋 $CAPACITY% "
-        elif [ "$CAPACITY" -lt 100 ]; then
+        elif [ "$CAPACITY" -lt 101 ]; then
             echo "❬ 󰂅 $CAPACITY% "
         fi
     else
@@ -35,7 +35,7 @@ format_bat() {
             echo "❬ 󰂀 $CAPACITY% "
         elif [ "$CAPACITY" -lt 90 ]; then
             echo "❬ 󰂂 $CAPACITY% "
-        elif [ "$CAPACITY" -lt 100 ]; then
+        elif [ "$CAPACITY" -lt 101 ]; then
             echo "❬ 󰁹 $CAPACITY% "
         fi
     fi
