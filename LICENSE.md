@@ -1,7 +1,7 @@
 MIT License (MIT)
 
-Copyright (c) 2018 Lógico Software <hi@logico.com.ar>
-(https://logico.com.ar)
+Copyright (c) 2014-25 tribhuwan-kumar Software <trashbhuwan@proton.me>
+(https://tribhuwan.vercel.app)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
