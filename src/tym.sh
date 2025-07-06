@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #<------------------------------Shell application for streaming Youtube Music in CLI (TYM)------------------------------------>
 # author : @tribhuwan-kumar
-# email : freakybytes@duck.com
+# email : trashbhuwan@proton.me
 #<------------------------------------------------------------------------------------------>
 
 # Print usage
