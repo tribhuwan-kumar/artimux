@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#
 
 format_none="0123456789"
 format_digital="🯰🯱🯲🯳🯴🯵🯶🯷🯸🯹"
@@ -23,7 +22,6 @@ fi
 # If format is roman numerals (-r), only handle IDs of 1 digit
 if [ "$FORMAT" = "roman" ] && [ ${#ID} -gt 1 ]; then
     echo -n $ID
-    continue
 else
     for ((i = 0; i < ${#ID}; i++)); do
         DIGIT=${ID:$i:1}
