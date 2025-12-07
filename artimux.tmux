@@ -40,6 +40,7 @@ zoom_id_style="${zoom_id_style:-$default_zoom_id_style}"
 
 battery="#($SCRIPTS_PATH/battery.sh)"
 tym="#($SCRIPTS_PATH/tym-widget.sh)"
+rename_windows="#($SCRIPTS_PATH/rename-windows.sh)"
 netspeed="#($SCRIPTS_PATH/netspeed.sh)"
 time="#($SCRIPTS_PATH/time-widget.sh)"
 cmus_status="#($SCRIPTS_PATH/music-tmux-statusbar.sh)"
@@ -60,4 +61,4 @@ tmux set -g window-status-current-format "#[fg=#44dfaf]  #[fg=#ebdbb2]$window
 tmux set -g window-status-format "#[fg=#ebdbb2,none,dim]  $window_number #W#[nobold,dim]#{?window_zoomed_flag, $zoom_number, $custom_pane}#[fg=#e5a340] #{?window_last_flag,󰁯 ,} "
 
 #+--- Bars RIGHT ---+
-tmux set -g status-right "$git_status#[fg=#868a90]$battery#[fg=#868a90]$netspeed$time$tym$cmus_status"
+tmux set -g status-right "$git_status#[fg=#868a90]$battery#[fg=#868a90]$netspeed$time$tym$cmus_status$rename_windows"
