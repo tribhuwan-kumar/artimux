@@ -12,7 +12,7 @@ for pid in $pane_pids; do
         tmux rename-window "$ssh_target"
         break
 	else
-		tmux rename-window "$(basename "$(tmux display-message -p '#{pane_current_path}')")"
+		tmux rename-window "$(basename "$(tmux display-message -p '#{pane_current_command}')")"
 		break
     fi
 done
