@@ -85,5 +85,9 @@ For status bar numbers customization [see](https://github.com/janoamaral/tokyo-n
 
 #### Snaps:
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67330c5a-95c7-4b0a-bb0a-a6a31165e4dd" />
+
+<br>
+
 <img src="https://github.com/tribhuwan-kumar/Artimux/assets/118052427/ec3a6901-232e-442c-81f9-1578bf489179" />
 
