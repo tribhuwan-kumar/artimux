@@ -1,5 +1,5 @@
 # Artimux
-A clean dark transparent theme for tmux which respects your default terminal background, inspired by [janoamaral/tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux). I just added some widgets and YouTube
+A clean dark transparent theme for tmux which respects your default terminal background, fork of [janoamaral/tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux). I just added some widgets and YouTube
 Music integration.
 
 ## Installation
@@ -8,7 +8,7 @@ Music integration.
 Add the plugin to the list of TPM plugins in `.tmux.conf`:
 
 ```bash
-set -g @plugin 'tribhuwan-kumar/Artimux'
+set -g @plugin 'tribhuwan-kumar/artimux'
 ```
 ## TYM (Tmux YouTube Music)
 A simple shell application for streaming YouTube Music in the terminal.
